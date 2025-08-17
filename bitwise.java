@@ -14,6 +14,9 @@ public class bitwise {
         // clear bit
         int clearBit = n & ~bitMask; // Clear the bit at position pos
         System.out.println("After clearing bit at position " + pos + ": " + clearBit);
+        //update bit
+        int updateBit = n ^ bitMask; // Toggle the bit at position pos
+        System.out.println("After toggling bit at position " + pos + ": " + updateBit);
     }
     
 }
