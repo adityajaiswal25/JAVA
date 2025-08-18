@@ -7,7 +7,7 @@ public class recursionxpown {
     }
 
     public static void main(String[] args) {
-        int x = 2; // Base
+        int x = 3; // Base
         int n = 3; // Exponent
         int result = power(x, n);
         System.out.println(x + " raised to the power of " + n + " is: " + result);
